@@ -205,6 +205,9 @@ footer.footer{padding-top:4rem;padding-bottom:4rem}
 	#navbar-container{
 		margin-bottom: 0px;
 	}
+	.company-number{
+		display: none;
+	}
 }
 
 .panel-body{
@@ -720,4 +723,13 @@ h6:before {
 	#image-gallery .modal-lg {
 	    max-width: 700px;
 	}
+}
+
+.company-number{
+	z-index: 1;
+	right: 0;
+	left: 0;
+	color: #f40809;
+	font-weight: bold;
+	padding: 31px 25px 0px 0px;
 }
