@@ -46,10 +46,8 @@ $(document).ready(function () {
       function updateGallery(selector) {
         let $sel = selector;
         current_image = $sel.data('image-id');
-        $('#image-gallery-title')
-          .text($sel.data('title'));
-        $('#image-gallery-image')
-          .attr('src', $sel.data('image'));
+        $('#image-gallery-title').text($sel.data('title'));
+        $('#image-gallery-image').attr('src', $sel.data('image'));
         disableButtons(counter, $sel.data('image-id'));
       }
 
