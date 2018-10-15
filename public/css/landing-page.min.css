@@ -53,12 +53,12 @@ header.masthead h2{
 	}
 
 .showcase .showcase-text{
-	padding:3rem
+		padding:2rem;
 	}
 
 .showcase .showcase-img{
-	min-height:30rem;
-	background-size:cover
+		min-height:30rem;
+		background-size:cover
 	}
 
 @media (min-width:768px){
@@ -243,6 +243,12 @@ footer.footer{padding-top:4rem;padding-bottom:4rem}
 @media (min-width: 992px) and (max-width: 1199px){
 	.logo-text{
 		display: none !important;
+	}
+}
+
+@media (max-width: 349px){
+	.logo-text{
+		font-size: 15px!important;
 	}
 }
 
@@ -702,6 +708,7 @@ h6:before {
 	background-color: transparent !important;
 	border: none !important;
 	width: 85% !important;
+	margin: auto;
 }
 
 #image-gallery .modal-body{
@@ -715,6 +722,17 @@ h6:before {
 	margin: auto;
 }
 
+.thumb{
+	overflow: hidden;
+}
+.thumb img{
+	transition: transform .2s;
+}
+.thumb img:hover{
+	-ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+}
 .thumb .img-thumbnail{
 	background-color: transparent !important;
 	border: none !important;
