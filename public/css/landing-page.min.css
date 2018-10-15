@@ -246,9 +246,24 @@ footer.footer{padding-top:4rem;padding-bottom:4rem}
 	}
 }
 
-@media (max-width: 349px){
+@media (max-width: 423px){
 	.logo-text{
-		font-size: 15px!important;
+		font-size: 20px! important;
+	}
+}
+
+@media (max-width: 378px){
+	.logo-text{
+		font-size: 16px! important;
+	}
+}
+
+@media (max-width: 311px){
+	.navbar-brand img{
+		width: 50px !important;
+	}
+	.logo-text{
+		font-size: 14px! important;
 	}
 }
 
